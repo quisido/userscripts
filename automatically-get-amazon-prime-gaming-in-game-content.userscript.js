@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Amazon Prime Gaming: Automatically get in-game content
-// @version      1.0.0
+// @version      1.0.1
 // @description  Automatically gets in-game content.
 // @downloadURL  https://raw.githubusercontent.com/quisido/userscripts/refs/heads/main/automatically-get-amazon-prime-gaming-in-game-content.userscript.js
 // @updateURL    https://raw.githubusercontent.com/quisido/userscripts/refs/heads/main/automatically-get-amazon-prime-gaming-in-game-content.userscript.js
@@ -43,6 +43,7 @@
   const isCollectedCard = card => {
     return (
       card.querySelector('p[title="Collected"]') !== null ||
+      card.querySelector('p[title="Collected by Household member"]') !== null ||
       card.querySelector('p[title="Install"]') !== null
     );
   };
