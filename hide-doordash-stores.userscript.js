@@ -4,7 +4,7 @@
 // @description  Hides stores from Doordash results
 // @downloadURL  https://raw.githubusercontent.com/quisido/userscripts/refs/heads/main/hide-doordash-stores.userscript.js
 // @updateURL    https://raw.githubusercontent.com/quisido/userscripts/refs/heads/main/hide-doordash-stores.userscript.js
-// @icon         https://cdn.doordash.com/static/img/favicon.ico
+// @icon         http://doordash.com/favicon.ico
 // @match        https://www.doordash.com/home
 // @author       quisi.do
 // @namespace    https://quisi.do/
